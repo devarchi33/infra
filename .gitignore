@@ -1,0 +1,4 @@
+gogs-data/*
+nginx/temp.*
+.idea/
+mysql/*

@@ -1,0 +1,2 @@
+https://github.com/jlaso/docker-nginx-reverseproxy-domain-name
+gogs database ip: 172.21.0.1
