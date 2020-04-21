@@ -2,3 +2,4 @@ gogs-data/*
 nginx/temp.*
 .idea/
 mysql/*
+jenkins_home/*

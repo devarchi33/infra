@@ -35,3 +35,13 @@ services:
       - ./gogs-data:/data
     depends_on:
       - database
+  jenkins:
+    image: jenkins/jenkins:latest
+    restart: always
+    ports:
+      - "8100:8080"
+      - "50100:50000"
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+    environment:
+      TZ: Asia/Shanghai
