@@ -1,2 +1,5 @@
-https://github.com/jlaso/docker-nginx-reverseproxy-domain-name
-gogs database ip: 172.21.0.1
+docker
+    basic: https://www.44bits.io/ko/post/easy-deploy-with-docker?fbclid=IwAR35d0K00qIHF5-I-TyII6CQkK82w4QfRqT810z1bKBOTrrUgCCeG950b9E
+    network: https://youngmind.tistory.com/entry/%EB%8F%84%EC%BB%A4-%EA%B0%95%EC%A2%8C-3-%EB%8F%84%EC%BB%A4-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-1
+nginx
+    basic: https://opentutorials.org/module/384/4328
