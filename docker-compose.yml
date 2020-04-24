@@ -38,6 +38,8 @@ services:
   jenkins:
     image: jenkins/jenkins:latest
     restart: always
+    extra_hosts:
+      - "ci.msllab.com:10.252.224.187"
     ports:
       - "8080:8080"
       - "50000:50000"
