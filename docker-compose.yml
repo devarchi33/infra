@@ -48,3 +48,5 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       TZ: Asia/Shanghai
+      JENKINS_HOME: "/var/jenkins_home"
+      JENKINS_OPTS: "--httpListenAddress=0.0.0.0 --httpPort=8080 -Djava.awt.headless=true"
