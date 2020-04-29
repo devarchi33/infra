@@ -36,7 +36,7 @@ services:
     depends_on:
       - database
   jenkins:
-    image: jenkins/jenkins:latest
+    image: siriuszg/jenkins-with-docker:latest
     restart: always
     extra_hosts:
       - "ci.msllab.com:10.252.224.187"
@@ -46,6 +46,8 @@ services:
     volumes:
       - ./jenkins_home:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
+    links:
+      - gogs
     environment:
       TZ: Asia/Shanghai
       JENKINS_HOME: "/var/jenkins_home"
